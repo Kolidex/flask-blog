@@ -59,7 +59,7 @@ class Comment(db.Model):
     text = db.Column(db.Text, nullable=False)
 
 #Line below only required once, when creating DB.
-db.create_all()
+# db.create_all()
 
 ##IS_ADMIN DECORATOR
 
